@@ -1,7 +1,7 @@
-package com.gaussic.controller;
+package com.zhujohnle.controller;
 
-import com.gaussic.model.UserEntity;
-import com.gaussic.repository.UserRepository;
+import com.zhujohnle.model.UserEntity;
+import com.zhujohnle.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-/**
- * Created by dzkan on 2016/3/8.
- */
 @Controller
 public class MainController {
 

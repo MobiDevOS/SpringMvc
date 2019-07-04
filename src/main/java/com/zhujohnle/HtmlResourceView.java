@@ -1,4 +1,4 @@
-package com.gaussic;
+package com.zhujohnle;
 
 import org.springframework.web.servlet.view.InternalResourceView;
 

@@ -1,13 +1,10 @@
-package com.gaussic.model;
+package com.zhujohnle.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by dzkan on 2016/3/8.
- */
 @Entity
 @Table(name = "blog", schema = "springdemo", catalog = "")
 public class BlogEntity {

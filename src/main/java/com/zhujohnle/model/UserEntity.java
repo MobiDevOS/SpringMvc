@@ -1,11 +1,8 @@
-package com.gaussic.model;
+package com.zhujohnle.model;
 
 import javax.persistence.*;
 import java.util.Collection;
 
-/**
- * Created by dzkan on 2016/3/8.
- */
 @Entity
 @Table(name = "user", schema = "springdemo", catalog = "")
 public class UserEntity {

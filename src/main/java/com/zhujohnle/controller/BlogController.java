@@ -1,25 +1,16 @@
-package com.gaussic.controller;
+package com.zhujohnle.controller;
 
-import com.gaussic.model.BlogEntity;
-import com.gaussic.model.UserEntity;
-import com.gaussic.repository.BlogRepository;
-import com.gaussic.repository.UserRepository;
-import com.oracle.tools.packager.Log;
+import com.zhujohnle.model.BlogEntity;
+import com.zhujohnle.model.UserEntity;
+import com.zhujohnle.repository.BlogRepository;
+import com.zhujohnle.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.util.List;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
 
-/**
- * Created by dzkan on 2016/3/18.
- */
 @Controller
 public class BlogController {
 
